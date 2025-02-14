@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" type="Pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.view">
+   <children>
+      <Label layoutX="97.0" layoutY="99.0" text="fristname" />
+      <Label layoutX="97.0" layoutY="179.0" text="lastname" />
+      <Label layoutX="97.0" layoutY="268.0" text="age" />
+      <TextField fx:id="firstnameText" layoutX="214.0" layoutY="94.0" />
+      <TextField fx:id="lastnameText" layoutX="214.0" layoutY="185.0" />
+      <TextField fx:id="ageText" layoutX="227.0" layoutY="253.0" />
+      <Text layoutX="262.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="user management" />
+      <Button layoutX="275.0" layoutY="333.0" mnemonicParsing="false" onAction="#Save" text="Sumbit" />
+   </children>
+</fx:root>
